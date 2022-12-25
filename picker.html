@@ -109,9 +109,9 @@ button.disabled:hover {
 .item-list li {
     margin:0;
     display:inline-block;
-    height:100px;
-    width:100px;
-    line-height:100px;
+    height:120px;
+    width:120px;
+    line-height:120px;
     border:3px solid transparent;
     text-align:center;
     position:relative;
@@ -206,9 +206,9 @@ button.disabled:hover {
 </style>
 </head>
 <body>
-<h1>Picker</h1>
+<h1>Pokémon generation Picker</h1>
 
-<p>You can include any content you want here.</p>
+<!-- <p>You can include any content you want here.</p> -->
 
 <div id="container">
 
@@ -234,7 +234,22 @@ button.disabled:hover {
 'use strict';
 
 var items = [
-    // Define your items here
+    {id: 'rby', name: 'RBY', image: 'rby.png'},
+    {id: 'gsc', name: 'GSC', image: 'gsc.png'},
+    {id: 'rse', name: 'RSE', image: 'rse.png'},
+    {id: 'frlg', name: 'FRLG', image: 'frlg.png'},
+    {id: 'dp', name: 'DPPt', image: 'dppt.png'},
+    {id: 'hgss', name: 'HGSS', image: 'hgss.png'},
+    {id: 'bw', name: 'BW', image: 'bw.png'},
+    {id: 'b2w2', name: 'B2W2', image: 'b2w2.png'},
+    {id: 'xy', name: 'XY', image: 'xy.png'},
+    {id: 'sm', name: 'SM', image: 'sm.png'},
+    {id: 'usum', name: 'USUM', image: 'usum.png'},
+    {id: 'lgpe', name: 'LGPE', image: 'lgpe.png'},
+    {id: 'swsh', name: 'SWSH', image: 'swsh.png'},
+    {id: 'bdsp', name: 'BDSP', image: 'bdsp.png'},
+    {id: 'pla', name: 'PLA', image: 'pla.png'},
+    {id: 'sv', name: 'SV', image: 'sv.png'}
 ];
 
 var myPicker = new picker.Picker({
